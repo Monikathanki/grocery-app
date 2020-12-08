@@ -1,0 +1,39 @@
+.signUp {
+    border: white 2px solid;
+    border-radius: 4px;
+    color: white;
+    height: 55vh;
+    align-items: center;
+    box-sizing: border-box;
+    align-items: center;
+    display: inline-block;
+    margin-left: 80vh;
+    margin-top: 8vh;
+    padding: 30px;
+}
+
+legend {
+    text-align: center;
+    font-size: 30px;
+}
+
+input {
+    height: 20px;
+    margin: 20px;
+    padding: 20px;
+}
+
+#email {
+    margin-left: 2rem;
+    height: 2.5rem;
+}
+
+#age {
+    margin-left: 2.7rem;
+    height: 2.5rem;
+}
+
+#button {
+    margin-left: 7rem;
+    margin-top: 1.5rem;
+}

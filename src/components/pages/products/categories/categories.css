@@ -1,0 +1,65 @@
+li {
+    list-style: none;
+}
+
+header {
+    Text-align: center;
+    text-decoration: underline white;
+    color: white;
+}
+
+img {
+    height: auto;
+    width: 200px;
+    padding: 2px;
+}
+
+.add {
+    padding: 8px 20px;
+    border-radius: 4px;
+    outline: none;
+    border: none;
+    font-size: 18px;
+    color: orange;
+    cursor: pointer;
+    background-color: var(--primary);
+}
+
+.add :hover {
+    padding: 6px 18px;
+    transition: all 0.3s ease-out;
+    background-color: transparent;
+    color: white;
+    border-radius: 4px;
+    border: 2px solid var(--primary);
+    transition: all 0.3s ease-out;
+}
+
+.container2 {
+    position: relative;
+    border: white solid 3px;
+    border-radius: 4px;
+    text-decoration: bold 10px;
+    margin: 5px;
+    padding: 10px;
+    height: 54vh;
+}
+
+.veg {
+    position: absolute;
+    color: white;
+    display: inline-flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    flex: left;
+    margin: 10px;
+    padding: 10px;
+}
+
+.add1 {
+    margin-bottom: 3px;
+}
+
+.style {
+    text-decoration: line-through red;
+}
